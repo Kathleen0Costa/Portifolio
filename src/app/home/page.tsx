@@ -38,7 +38,7 @@ export default function Home() {
 
 
                 {/* Hero Section */}
-                <section id="home" className="bg-[#2f4632] flex flex-col gap-8 items-center min-h-screen px-4 p-5 pt-20 sm:pt-25">
+                <section id="home" className="bg-[#2f4632] flex flex-col gap-8 items-center min-h-screen px-4 p-5 pt-20">
                     <div>
                         <h1 className="p-10 font-serif text-6xl lg:text-7xl font-bold leading-0.9 items-center justify-center flex">
                             PORTFOLIO
