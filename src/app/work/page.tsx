@@ -22,19 +22,19 @@ export default function Work () {
    
                         <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 text-sm">
                         <Link href="/home"
-                            className="px-0.5 py-0.5 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
 
                             <Link href="/work"
-                            className="px-0.5 py-0.5 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
 
                             <Link href="/home#about"
-                            className="px-0.5 py-0.5 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
 
                             <Link href="/home#resume"
-                            className="px-0.5 py-0.5 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
 
                             <Link href="/contact"
-                            className="px-0.5 py-0.5 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
                         </nav>
                     </div>
 
