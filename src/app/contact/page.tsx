@@ -22,19 +22,19 @@ export default function Contact () {
    
                         <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 ">
                         <Link href="/home"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+                            className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
 
                             <Link href="/work"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
+                            className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
 
                             <Link href="/home#about"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
+                            className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
 
                             <Link href="/home#resume"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
+                            className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
 
                             <Link href="/contact"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
+                            className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
                         </nav>
                     </div>
 
@@ -44,7 +44,7 @@ export default function Contact () {
                    {/*hero-contact*/}
                     <section>
                         <div className="bg-amber-100">
-                            <h1 className='pt-30 text-black font-serif text-4xl text-center p-8'>Contato</h1>
+                            <h1 className='pt-35 text-black font-serif text-4xl text-center p-8'>Contato</h1>
                         </div>
 
                         <div className='bg-amber-100 text-black text-center p-8 space-y-4'>
@@ -71,15 +71,15 @@ export default function Contact () {
                                     <input type="hidden" name="_subject" value="Nova solicitação de orçamento"/>
   
                                     <input type="text" name="name" placeholder="Seu nome" required 
-                                    className='bg-[#5b8160] rounded-2xl p-2 shadow-md'/>
+                                    className='bg-[#5b8160] rounded-2xl p-1 shadow-md'/>
                                     <input type="email" name="email" placeholder="Seu email" required 
-                                    className='bg-[#5b8160] rounded-2xl p-2 shadow-md'/>
+                                    className='bg-[#5b8160] rounded-2xl p-1 shadow-md'/>
                                     <input type="number" name="days" placeholder="Prazo" required 
-                                    className='bg-[#5b8160] rounded-2xl p-2 shadow-md'/>
+                                    className='bg-[#5b8160] rounded-2xl p-1 shadow-md'/>
                                     <input type="text" name="project" placeholder="Tipo de projeto" required 
-                                    className='bg-[#5b8160] rounded-2xl p-2 shadow-md'/>
+                                    className='bg-[#5b8160] rounded-2xl p-1 shadow-md'/>
                                     <textarea name="message" placeholder="Explique sua ideia" required
-                                    className='bg-[#5b8160] rounded-2xl p-2 shadow-md'></textarea>
+                                    className='bg-[#5b8160] rounded-2xl p-1 shadow-md'></textarea>
 
                                 <button type="submit"
                                 className='bg-[#263829] p-2 rounded-2xl mt-4 hover:bg-[#f4a300] transition shadow-md'>
