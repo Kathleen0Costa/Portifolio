@@ -8,7 +8,7 @@ export default function Home() {
             {/* Header */}
             <header className="bg-[#2f4632] text-white">
 
-                    <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
+                    <div className="max-w-screen mx-auto flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
     
                 
                         <div className="text-center sm:text-left justify-self-start p-2 font-serif text-sm">
