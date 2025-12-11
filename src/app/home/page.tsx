@@ -10,7 +10,7 @@ export default function Home() {
                 <title>Kathleen Costa - Portfolio</title>  
                 <meta name="description" content="Portfólio de Kathleen Costa, Desenvolvedora Full Stack e Designer. Mostrando projetos, habilidades e informações de contato." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-            </head>git
+            </head>git 
             <body>
                 {/* Header */}
                 <header className="bg-[#2f4632] text-white">
