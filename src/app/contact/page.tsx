@@ -15,12 +15,12 @@ export default function Contact () {
                     <div className="flex flex-col items-center sm:grid sm:grid-cols-2 sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
     
                 
-                        <div className="text-center sm:text-left justify-self-start p-2 font-serif text-xl">
+                        <div className="text-center sm:text-left justify-self-start p-2 font-serif text-sm">
                         Kathleen Costa
                         </div>
 
    
-                        <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 ">
+                        <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 text-sm">
                         <Link href="/home"
                             className="px-2 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
 
