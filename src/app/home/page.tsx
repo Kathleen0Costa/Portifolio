@@ -7,20 +7,34 @@ export default function Home() {
         <main>
             {/* Header */}
             <header className="bg-[#2f4632] text-white">
-                <div className="flex flex-col items-center sm:grid sm:grid-cols-2 sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
-                    <div className="text-center sm:text-left justify-self-start p-2 font-serif text-sm">
+
+                    <div className="max-w-screen-xl mx-auto flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
+    
+                
+                        <div className="text-center sm:text-left justify-self-start p-2 font-serif text-sm">
                         Kathleen Costa
+                        </div>
+
+   
+                        <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 text-sm">
+                        <Link href="/home"
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+
+                            <Link href="/work"
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
+
+                            <Link href="/home#about"
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
+
+                            <Link href="/home#resume"
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
+
+                            <Link href="/contact"
+                            className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
+                        </nav>
                     </div>
 
-                    <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 text-sm">
-                        <Link href="/home" className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
-                        <Link href="/work" className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
-                        <Link href="/home#about" className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
-                        <Link href="/home#resume" className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
-                        <Link href="/contact" className="px-1 py-1 rounded-xl transition hover:bg-[#f4a300]">Fale comigo!</Link>
-                    </nav>
-                </div>
-            </header>
+                </header>
 
 
                 {/* Hero Section */}
