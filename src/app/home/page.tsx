@@ -8,29 +8,31 @@ export default function Home() {
         <html lang="en">
             <head>
                 <title>Kathleen Costa - Portfolio</title>  
-                <meta name="description" content="Portfolio of Kathleen Costa, Full Stack Developer and Designer. Showcasing projects, skills, and contact information." />
+                <meta name="description" content="Portfólio de Kathleen Costa, Desenvolvedora Full Stack e Designer. Mostrando projetos, habilidades e informações de contato." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </head>
             <body>
                 {/* Header */}
-                <header className="bg-[#2f4632] text-white px-4 py-4 flex justify-between items-center fixed w-full top-0 z-10 shadow-md">
-                    <div>Kathleen Costa</div>
-                    <nav className="w-full px-4 py-3 flex justify-between items-end max-w-lg">
-                        <Link href="/home"
-                        className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
-                        <Link href="/work"
-                        className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Work
-                        </Link>                       
-                        <Link href="/home#about"
-                        className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">About
-                        </Link>
-                        <Link href="/home#resume"
-                        className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Resume
-                        </Link>
-                        <Link href="/contact"
-                        className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Get in touch!
-                        </Link>
-                    </nav>
+                <header className="bg-[#2f4632] text-white px-4 py-4 flex justify-between items-center fixed w-full top-0 z-10 shadow-md text-center">
+                    <div className='sm:grid sm:grid-cols-2 '>
+                        <div>Kathleen Costa</div>
+                        <nav className="w-full px-2 py-2 flex justify-between items-end max-w-lg">
+                            <Link href="/home"
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+                            <Link href="/work"
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos
+                            </Link>                       
+                            <Link href="/home#about"
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre
+                            </Link>
+                            <Link href="/home#resume"
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo
+                            </Link>
+                            <Link href="/contact"
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!
+                            </Link>
+                        </nav>
+                    </div>
                 </header>
 
                 {/* Hero Section */}
@@ -50,8 +52,8 @@ export default function Home() {
                         <div className="sm+:flex sm+:flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 gap-8 items-center justify-center">
                             <div>
                                 <p className="flex items-center justify-center p-10 text-center">
-                                    I build scalable web applications, automations and AI-powered solutions.  
-                                    My focus is on writing clean, efficient code and delivering user-friendly experiences.
+                                    Eu construo aplicações web escaláveis, automações e soluções com IA.
+                                    Meu foco é escrever código limpo, eficiente e entregar experiências fáceis de usar.
                                 </p>
                                 <div className="bg-[#322d29] flex flex-col items-center justify-center text-center p-4 rounded-2xl shadow-[6px_6px_0_#000000] max-w-80 mx-auto">
                                     <p><a href="https://github.com/Kathleen0Costa">GH: @kathleen-dev</a></p>
@@ -71,11 +73,10 @@ export default function Home() {
 
                 {/* About Section */}
                 <section id="about" className="py-16 px-4 bg-amber-100 text-center text-black">
-                    <h2 className="font-serif text-4xl mb-4">Hello, I'm Kathleen !</h2>
+                    <h2 className="font-serif text-4xl mb-4">Olá, eu sou a Kathleen!</h2>
                     <p className="pb-4">
-                        I'm a Full Stack Web Developer and Designer passionate about technology, automation, and artificial intelligence. 
-                        I love solving problems through code and design, creating digital products that are not only functional but also visually engaging, 
-                        bringing real value to people and businesses.
+                        Sou Desenvolvedora Full Stack e Designer, apaixonada por tecnologia, automação e inteligência artificial.
+                        Amo resolver problemas com código e design, criando produtos digitais que são funcionais e visualmente atraentes, trazendo valor real para pessoas e negócios.
                     </p>
                     <a className="text-[#f4a300] underline" href="https://linkedin.com/in/kathleen-costa" target="_blank">
                         linkedin.com/in/kathleen-costa
@@ -89,7 +90,7 @@ export default function Home() {
                 <section 
                 id="resume"
                 className="bg-amber-100 text-black p-6">
-                    <h2 className="font-serif text-4xl mb-4">Education</h2>
+                    <h2 className="font-serif text-4xl mb-4">Formação</h2>
                     <ul className="pb-10">
                         <li><span className="font-bold">2025</span> - Systems Development - Unicesumar</li>
                         <li><span className="font-bold">2024-2025</span> - Development FULL-STACK – Alura</li>
@@ -102,12 +103,12 @@ export default function Home() {
                         <li><span className="font-bold">2022</span> - Python basics - FGV</li>
                     </ul>
 
-                    <h2 className="text-4xl font-serif pb-4">Experience</h2>
+                    <h2 className="text-4xl font-serif pb-4">Experiência</h2>
                     <div>
                         <ul className="bg-[#f4a300] p-6 rounded-2xl">
-                            <li><span className="font-bold">2025</span> Full Stack Developer – Freelance projects (React, Node.js, APIs, databases)</li>
-                            <li><span className="font-bold">2024</span> Automation Developer – Built Python bots, RPA scripts, and API integrations</li>
-                            <li><span className="font-bold">2023</span> Junior Web Developer – HTML, CSS, JavaScript websites</li>
+                            <li><span className="font-bold">2025</span> Desenvolvedora Full Stack – Projetos freelance (React, Node.js, APIs, bancos de dados)</li>
+                            <li><span className="font-bold">2024</span> Desenvolvedora de Automação – Criação de bots Python, scripts RPA e integrações com APIs</li>
+                            <li><span className="font-bold">2023</span> Desenvolvedora Web Júnior – Sites em HTML, CSS e JavaScript</li>
                         </ul>
                         <div className="mt-4 flex flex-wrap gap-2">
                             <a className="bg-black text-white p-2 rounded-2xl">#ProblemSolving</a>
@@ -120,7 +121,7 @@ export default function Home() {
 
                 {/* Technical Skills Section */}
                 <section className="bg-[#2f4632]">
-                    <h2 className="text-4xl font-serif p-6">Technical skills</h2>
+                    <h2 className="text-4xl font-serif p-6">Habilidades técnicas</h2>
                     <div>
                         <div className="p-6">
                             <h3 className="font-bold">Frontend</h3>
@@ -131,15 +132,15 @@ export default function Home() {
                             <p>Node.js – Express – Python – Django – Flask</p>
                         </div>
                         <div className="p-6">
-                            <h3 className="font-bold">Databases & Cloud</h3>
+                            <h3 className="font-bold">Bancos de dados & Cloud</h3>
                             <p>PostgreSQL – MongoDB – MySQL – Firebase – AWS – Docker</p>
                         </div>
                         <div className="p-6">
-                            <h3 className="font-bold">Automation & AI</h3>
+                            <h3 className="font-bold">Automação & IA</h3>
                             <p>Python (Pandas, Selenium, FastAPI) – ChatGPT API – RPA tools</p>
                         </div>
                         <div className="p-6">
-                            <h3 className="font-bold">Other</h3>
+                            <h3 className="font-bold">Outros</h3>
                             <p>Git & GitHub – Agile/Scrum – CI/CD – REST APIs</p>
                         </div>
                     </div>
@@ -147,37 +148,37 @@ export default function Home() {
 
                 {/* Languages Section */}
                 <section className="bg-amber-100 text-black p-6">
-                    <h2 className="font-serif text-4xl pb-6">Languages</h2>
-                    <p>Portuguese – Native</p>
-                    <p>English – Fluent</p>
-                    <p>Spanish – basic</p>
-                    <p>Russian - basic</p>
+                    <h2 className="font-serif text-4xl pb-6">Idiomas</h2>
+                    <p>Português – Nativo</p>
+                    <p>Inglês – Avançado</p>
+                    <p>Espanhol – Basico</p>
+                    <p>Russo - Basico</p>
                 </section>
 
                 {/* Activities Section */}
                 <section className="bg-amber-100 text-black p-6">
-                    <h2 className="font-serif text-4xl pb-6">Activities</h2>
+                    <h2 className="font-serif text-4xl pb-6">Atividades</h2>
                     <ul>
-                        <li>2023 – Winner: Mandacaru Mathematics Olympiads</li>
+                        <li>2023 – Vencedora: Olimpíada de Matemática Mandacaru</li>
                     </ul>
                 </section>
 
                 {/* Hobbies Section */}
                 <section className="bg-amber-100 text-black p-6">
-                    <h2 className="font-serif text-4xl pb-6">Hobbies & Interests</h2>
+                    <h2 className="font-serif text-4xl pb-6">Hobbies & Interesses</h2>
                     <ul>
-                        <li className="p-2">🩰 Ballet dancer</li>
-                        <li className="p-2">🧶 Crochet, painting and crafts</li>
-                        <li className="p-2">🎮 Gaming</li>
-                        <li className="p-2">📚 Reading books</li>
-                        <li className="p-2">🐾 Cats, coffee and coding</li>
+                        <li className="p-2">🩰 Bailarina</li>
+                        <li className="p-2">🧶 Crochê, pintura e artesanato</li>
+                        <li className="p-2">🎮 Jogos</li>
+                        <li className="p-2">📚 Ler livros</li>
+                        <li className="p-2">🐾 Gatos, café e programação</li>
                     </ul>
                 </section>
 
                 {/* Contact Section */}
                 <section className="bg-[#f4a300] p-10 text-center">
-                    <h2 className="text-5xl font-serif">Contact</h2>
-                    <p>Belo Horizonte, MG - Brazil</p>
+                    <h2 className="text-5xl font-serif">Contato</h2>
+                    <p>Belo Horizonte, MG - Brasil</p>
                     <p className="text-black underline">
                         <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=kathleencosta.dev@gmail.com&su=Interesse+no+seu+portfólio+de+Desenvolvedora&body=Olá+Kathleen%2C%0D%0A%0D%0AVi+seu+portfólio+e+gostaria+de+conversar+sobre+uma+possível+colaboração.%0D%0A%0D%0APoderia+me+responder+quando+for+possível%3F%0D%0A%0D%0AObrigado%21">
                             Entre em contato por email
