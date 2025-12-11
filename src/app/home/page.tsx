@@ -13,27 +13,35 @@ export default function Home() {
             </head>
             <body>
                 {/* Header */}
-                <header className="bg-[#2f4632] text-white px-4 py-4 flex justify-between items-center fixed w-full top-0 z-10 shadow-md text-center">
-                    <div className='sm:grid sm:grid-cols-2 '>
-                        <div>Kathleen Costa</div>
-                        <nav className="w-full px-2 py-2 flex justify-between items-end max-w-lg">
-                            <Link href="/home"
+                <header className="bg-[#2f4632] text-white">
+                    <div className="flex flex-col items-center sm:grid sm:grid-cols-2 sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
+    
+                
+                        <div className="text-center sm:text-left justify-self-start p-2 font-serif text-xl">
+                        Kathleen Costa
+                        </div>
+
+   
+                        <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 ">
+                        <Link href="/home"
                             className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+
                             <Link href="/work"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos
-                            </Link>                       
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
+
                             <Link href="/home#about"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
+
                             <Link href="/home#resume"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
+
                             <Link href="/contact"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
                         </nav>
                     </div>
+
                 </header>
+
 
                 {/* Hero Section */}
                 <section id="home" className="bg-[#2f4632] flex flex-col gap-8 items-center min-h-screen px-4 p-5 pt-20">
@@ -175,21 +183,14 @@ export default function Home() {
                     </ul>
                 </section>
 
-                {/* Contact Section */}
-                <section className="bg-[#f4a300] p-10 text-center">
-                    <h2 className="text-5xl font-serif">Contato</h2>
-                    <p>Belo Horizonte, MG - Brasil</p>
-                    <p className="text-black underline">
-                        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=kathleencosta.dev@gmail.com&su=Interesse+no+seu+portfólio+de+Desenvolvedora&body=Olá+Kathleen%2C%0D%0A%0D%0AVi+seu+portfólio+e+gostaria+de+conversar+sobre+uma+possível+colaboração.%0D%0A%0D%0APoderia+me+responder+quando+for+possível%3F%0D%0A%0D%0AObrigado%21">
-                            Entre em contato por email
-                        </a>
-                    </p>
-                    <p className="text-black underline">
-                        <a target="_blank" href="https://wa.me/5531990855251?text=Olá%2C+vi+seu+portfólio+e+gostaria+de+saber+mais+sobre+seus+serviços.%0D%0A%0D%0A">
-                            Entre em contato por whatsapp
-                        </a>
-                    </p>
-                </section>
+                
+                 {/*FOOTER*/}
+  <footer className=' bg-[#f4a300] p-8 text-center'>
+    <h2 className='text-3xl p-4 font-serif'>Vamos Construir Algo!</h2>
+    <p>📧 kathleen.dev@gmail.com</p>
+    <p>🌐 github.com/kathleen-dev</p>
+    <p>🔗 linkedin.com/in/kathleen-costa</p>
+  </footer>
             </body>
         </html>
     );

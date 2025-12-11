@@ -11,26 +11,33 @@ export default function Work () {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
     {/* Header */}
-                <header className="bg-[#2f4632] text-white px-4 py-4 flex justify-between items-center fixed w-full top-0 z-10 shadow-md text-center">
-                    <div className='sm:grid sm:grid-cols-2 '>
-                        <div>Kathleen Costa</div>
-                        <nav className="w-full px-2 py-2 flex justify-between items-end max-w-lg">
-                            <Link href="/home"
+                 <header className="bg-[#2f4632] text-white">
+                    <div className="flex flex-col items-center sm:grid sm:grid-cols-2 sm:items-center shadow-md fixed w-full bg-[#2f4632] top-0 z-10">
+    
+                
+                        <div className="text-center sm:text-left justify-self-start p-2 font-serif text-xl">
+                        Kathleen Costa
+                        </div>
+
+   
+                        <nav className="mt-2 sm:mt-0 flex gap-2 justify-center sm:justify-end p-2 ">
+                        <Link href="/home"
                             className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Home</Link>
+
                             <Link href="/work"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos
-                            </Link>                       
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Trabalhos</Link>
+
                             <Link href="/home#about"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Sobre</Link>
+
                             <Link href="/home#resume"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300]">Currículo</Link>
+
                             <Link href="/contact"
-                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!
-                            </Link>
+                            className="px-3 py-2 rounded-xl transition hover:bg-[#f4a300] text-center">Fale comigo!</Link>
                         </nav>
                     </div>
+
                 </header>
     
     <body>
